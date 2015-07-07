@@ -1,0 +1,190 @@
+#body-user{
+	background:#598527 url('../img/landschaft.jpg') top no-repeat; /* Old browsers */
+   
+  -webkit-background-size: cover;
+  -mox-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height:100%;
+}
+.app-welcome #searchresults {
+	background-color:rgba(255,255,255,1);
+	position:fixed;
+	overflow: auto;
+	height:50%;
+	text-overflow: ellipsis;
+	width:auto;
+	padding-top: 20px;
+	box-sizing: border-box;
+	z-index: 100;
+	/* account for margin-bottom in files list */
+	margin-top:-40px;
+	
+}
+
+img.img-center{
+	position:relative;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#loadedAppsWelcome{
+	position:relative;
+	left:0;
+	top:0;
+	padding:0px;
+	display:block;
+	float:left;
+	width:96%;
+	margin-left:2%;
+	
+}
+
+.welcome-app{
+	cursor:pointer;
+	position:relative;
+	font-family:"Helvetica Neue",arial;
+	font-weight:200;
+	letter-spacing:2px;
+	display:block;
+	background:#1d2d44;
+	color:#fff;
+	font-size:20px;
+	padding:0px;
+	width:100px;	
+}
+.welcome-app div,.welcome-app img{
+	cursor:pointer;
+}
+
+
+.back-div{
+	padding:10px;
+}
+.a-app-help{
+	background:#AD103C;
+}
+.welcome-app i{
+	width:100%;
+	
+}
+.welcome-app i:hover{
+	color:black;
+	
+}
+
+.welcome-app div.app-name{
+	
+	position:absolute;
+	bottom:5px;
+	z-index:5;
+	padding-left:10px;
+	display:block;
+	text-align:left;
+	height:20px;
+	width:100%;
+	line-height:20px;
+	
+}
+span.descriptionEventTitle{
+	font-size:16px;
+	padding-left:5px;
+	display:block;
+	float:left;
+	font-weight:bold;
+	width:100%;
+}
+span.descriptionEvents{
+	font-size:14px;
+	padding-left:5px;
+	display:block;
+	float:left;
+	width:100%;
+	white-space: nowrap;
+   text-overflow: ellipsis; 
+   -o-text-overflow: ellipsis;
+   overflow:hidden;
+   cursor:pointer;
+}
+span.descriptionEvents:hover{
+	text-decoration:underline;
+}
+
+span.pin-title{
+	position:absolute;
+	bottom:0px;
+	padding-left:10px;
+	line-height:24px;
+	z-index:14;
+	background-color:rgba(0,0,0,0.6);
+	display:block;
+	font-size:14px;
+	width:100%;
+}
+
+.a-app-logout{
+	background-color:#D2322D;
+}
+
+.cover{
+	-webkit-background-size: cover;
+  -mox-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:200px;
+  
+}
+.a-app-users{
+	background-color:green;
+}
+
+.a-app-admin{
+	background-color:orange;
+}
+.a-app-activity{
+	background-color:#B01E00;
+}
+
+.a-app-audios{
+	background-color:#999999;
+}
+
+.a-app-documents{
+	background-color:#0098DE;
+}
+ 
+.a-app-calendarplus{
+	background-color: rgb(90, 90, 177);
+}
+
+.a-app-gallerydeluxe{
+	background:#000;
+}
+
+.a-app-files{
+	background:#006AC1;
+}
+ 
+.a-app-pinit{
+	background-color:#ffc900;
+}
+.a-app-kontakte{
+	background-color:#77B900;
+}
+ 
+.a-app-tasksplus{
+	background-color:#630d70;
+}
+
+.a-app-sharees{
+	background-color:#339933;
+}
+ 
+.a-app-videos{
+	background-color:#3C3C3C;
+} 
+ 
+.a-app-apps-management{
+	background-color:#FF76BC;
+}
