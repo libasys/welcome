@@ -34,6 +34,7 @@ class PageController extends Controller {
 		\OCP\Util::addscript('welcome','gridify');
 		\OCP\Util::addscript('welcome','MetroJs');
 		\OCP\Util::addscript('welcome','welcome');
+		\OCP\Util::addscript('welcome','header-color');
 		
 		\OCP\Util::addStyle('welcome','style');
 		\OCP\Util::addStyle('welcome','MetroJs');
